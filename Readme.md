@@ -32,7 +32,55 @@ Perfect for hackathons, BYOP (Bring Your Own Project) events, and automated data
 - **Data Manipulation:** Pandas, NumPy
 - **Frontend / UI:** Streamlit (with Custom CSS styling)
 
+  
+
 ---
+## 🚀 Installation & Setup
+
+Follow these instructions to get a local copy up and running smoothly.
+
+### 📋 Prerequisites
+Ensure you have the following installed on your local machine:
+- [Python 3.8+](https://www.python.org/downloads/)
+- [Git](https://git-scm.com/downloads)
+
+🛠️ Step-by-Step Guide
+1. Clone the Repository
+Open your terminal and run the following command to download the project:
+
+Bash
+git clone [https://github.com/YourUsername/KYC-Data-Extractor.git](https://github.com/YourUsername/KYC-Data-Extractor.git)
+cd KYC-Data-Extractor
+
+
+2. Set Up a Virtual Environment (Highly Recommended)
+It's a best practice to isolate project dependencies. Create and activate a virtual environment:
+
+Bash
+ For Windows:
+python -m venv kyc_env
+kyc_env\Scripts\activate
+
+ For macOS/Linux:
+python3 -m venv kyc_env
+source kyc_env/bin/activate
+
+
+
+3. Install Dependencies
+With your virtual environment active, install the required Machine Learning and UI libraries:
+
+Bash
+pip install streamlit opencv-python easyocr pandas numpy pillow
+(💡 Note: The first-time installation of EasyOCR might take a few extra minutes as it downloads the PyTorch deep learning models.)
+
+4. Launch the Application
+Fire up the Streamlit server to view the dashboard:
+
+Bash
+streamlit run app.py''
+
+
 
 
 
