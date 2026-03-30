@@ -34,11 +34,5 @@ Perfect for hackathons, BYOP (Bring Your Own Project) events, and automated data
 
 ---
 
-## 🚀 Installation & Setup
 
-Follow these steps to run the project on your local machine:
 
-**1. Clone the repository**
-```bash
-git clone [https://github.com/YourUsername/KYC-Data-Extractor.git](https://github.com/YourUsername/KYC-Data-Extractor.git)
-cd KYC-Data-Extractor
